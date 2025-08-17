@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Shanthalingaiah SM',
+  title: 'Tanmayi R S',
   tagline: 'Writer Who Codes | Docs Consultant | Content Strategist.',
   url: 'https://tanmayi1996.github.io', // GitHub Pages base URL
   baseUrl: '/portfolio-tanmayi/', // Must have a trailing slash for project pages
