@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[181],{540:e=>{e.exports=JSON.parse('{"permalink":"/portfolio-tanmayi/blog/tags/engineering","page":1,"postsPerPage":3,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

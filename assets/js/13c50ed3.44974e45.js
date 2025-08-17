@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[501],{6252:a=>{a.exports=JSON.parse('{"label":"Blockchain","permalink":"/portfolio-tanmayi/blog/tags/blockchain","allTagsPath":"/portfolio-tanmayi/blog/tags","count":1}')}}]);

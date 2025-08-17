@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdjamaile_dev=self.webpackChunkdjamaile_dev||[]).push([[11],{1382:a=>{a.exports=JSON.parse('{"label":"Ethereum","permalink":"/portfolio-tanmayi/blog/tags/ethereum","allTagsPath":"/portfolio-tanmayi/blog/tags","count":1}')}}]);
