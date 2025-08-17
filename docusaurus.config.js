@@ -12,7 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'tanmayi1996', // GitHub username
   projectName: 'portfolio-tanmayi', // Repo name
-  trailingSlash: true,
+  trailingSlash: false,
 
   plugins: [
     [
