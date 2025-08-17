@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Shanthalingaiah SM',
   tagline: 'Writer Who Codes | Docs Consultant | Content Strategist.',
-  url: 'https://shanthsm.github.io', // GitHub Pages base URL
-  baseUrl: '/portfolio-master/', // Must have a trailing slash for project pages
+  url: 'https://tanmayi1996.github.io', // GitHub Pages base URL
+  baseUrl: '/portfolio-tanmayi/', // Must have a trailing slash for project pages
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'shanthsm', // GitHub username
-  projectName: 'portfolio', // Repo name
+  organizationName: 'tanmayi1996', // GitHub username
+  projectName: 'portfolio-tanmayi', // Repo name
   trailingSlash: true,
 
   plugins: [
@@ -37,7 +37,7 @@ module.exports = {
 
   themeConfig: {
     navbar: {
-      title: 'Shanthalingaiah SM',
+      title: 'Tanmayi R S',
       logo: {
         alt: 'Site Logo',
         src: 'img/mob-2.png',
@@ -45,7 +45,7 @@ module.exports = {
       items: [
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/shanthsm/portfolio',
+          href: 'https://github.com/tanmayi1996/portfolio-tanmayi',
           label: 'GitHub',
           position: 'right',
         },
@@ -75,7 +75,7 @@ module.exports = {
         docs: false,
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/shanthsm/portfolio/edit/master/',
+          editUrl: 'https://github.com/tanmayi1996/portfolio-tanmayi/edit/master/',
           feedOptions: {
             type: 'all',
           },
