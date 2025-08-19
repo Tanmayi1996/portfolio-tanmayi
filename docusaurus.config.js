@@ -54,7 +54,7 @@ module.exports = {
 
     footer: {
       style: 'light',
-      copyright: `Copyright © ${new Date().getFullYear()} Shanthalingaiah SM. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Tanmayi R S. Built with Docusaurus.`,
     },
 
     prism: {
