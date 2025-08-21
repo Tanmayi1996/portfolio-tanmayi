@@ -27,3 +27,48 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+/* --- Interactive Styles Below --- */
+
+/* Button hover effect */
+button,
+a.button {
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+button:hover,
+a.button:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #fff;
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* Card hover effect */
+.card {
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(37, 194, 160, 0.15);
+  transform: translateY(-4px) scale(1.02);
+}
+
+/* Fade-in animation for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-animate {
+  animation: fadeInUp 0.8s ease;
+}
+
+/* Example: Add .section-animate to any section you want to animate on load */
+/* Example: Use .card for card-like elements */
+/* The button styles apply to <button> and .button elements
