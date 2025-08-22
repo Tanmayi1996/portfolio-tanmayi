@@ -1,9 +1,9 @@
 ---
 slug: techwrters-struggle
 title: Why Tech Writers struggle to earn as much as their engineering folks?
-author: Shanth SM
-author_title: Technical Writer
-author_url: https://github.com/jaiswalwrites
+author:  Tanmayi R S
+author_title: Senior Technical Writer
+author_url: https://tanmayi1996.github.io/portfolio-tanmayi/
 author_image_url: https://avatars.githubusercontent.com/u/15789670?v=4
 tags: [techwriting, engineering]
 date: 2022-12-26
