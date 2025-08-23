@@ -13,124 +13,92 @@ const caculateWorkLength = (startMonth: Date, endMonth: Date): number => {
 
 const projects: Array<ProjectType> = [
   {
-    img: 'img/ourmanga.png',
-    title: 'Docs for dApp Developers',
-    description:
-      'Created docs from scratch to onboard users to blockchain-powered Auth, Storage, Privacy and Identity tech stacks.',
-    codeLink: 'https://github.com/orgs/arcana-network/repositories',
-    liveLink: 'https://docs.arcana.network/',
-    techstack: ['Blockchain', 'SDK docs', 'Ethereum', 'API docs'],
-  },
-  {
-    img: 'img/kanji.png',
-    title: 'Docs for DevOps admin and developers',
-    description:
-      'Part of early age startup. Led the documentation and took the product to a successful GA. Later it became an unicorn.',
+    img: 'img/axon.png',
+    title: 'Senior Information Developer',
+    description: 'Created mirecosites and documentations from scratch for Developers',
     codeLink: '',
-    liveLink: 'https://developer.harness.io/docs/continuous-integration',
-    techstack: ['Markdown', 'CI', 'Kubernetes', 'Docker','Containers'],
+    liveLink: 'https://toolkit.axon.zetapay.tech/',
+    techstack: ['API docs', 'Markdown', 'CI/CD', 'Kubernetes', 'Docker','Containers'],
   },
   {
-    img: 'img/anatoken.png',
-    title: 'Docs for admins and developers ensuring cloud security for SaaS, PaaS, and IaaS.',
-    description:
-      'Led the documentation efforts for a CASB (Cloud Access Security broker).',
+    img: 'img/teams.png',
+    title: 'Developer Document Specialist',
+    description: 'Tested and documented Teams bots and servicers for Developers.',
+    codeLink: 'https://github.com/MicrosoftDocs/msteams-docs/commits?author=v-tanmayirs',
+    liveLink: 'https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/tool-sdk-overview',
+    techstack: ['Toolkit', 'SDK docs'],
+  },
+  {
+    img: 'img/simulator.png',
+    title: 'Engineer I',
+    description:'Documented API documentation, user guides, installation guides, admin guides for simulators.',
     codeLink: '',
     liveLink: 'https://success.myshn.net/Skyhigh_Cloud_Infrastructure_(CNAPP)/CSPM/CSPM_DLP_On-Demand_Scans/Create_a_DLP_On-Demand_Scan_for_GCP',
-    techstack: [
-    'Enterprise Anti-Virus', 
-    'Identity & Access Management (IAM)'],
+    techstack: ['API docs', 'Simulator'],
   },
   {
-    img: 'img/djamaile-light.png',
+    img: 'img/tanmayi.png',
     title: 'Portfolio',
     description: 'Personal portfolio',
-    codeLink: 'https://github.com/shanthsm',
-    liveLink: 'https://shanthsm.github.io/portfolio-master/',
+    codeLink: 'https://github.com/tanmayi1996',
+    liveLink: 'https://tanmayi1996.github.io/portfolio-tanmayi/',
     techstack: ['ReactJS', 'TypeScript'],
   },
 ];
 
 const experience: Array<ExperienceType> = [
   {
-    img: 'img/arcana.png',
-    jobTitle: 'Blockchain Technical Writer',
-    company: 'Arcana network',
-    date: 'March 2022 - April 2023',
+    img: 'img/zeta.png',
+    jobTitle: 'Senior Information Developer',
+    company: 'Zeta',
+    date: 'July 2022 - Present',
     workLength: `${caculateWorkLength(new Date(2022, 1, 3), new Date())} mos`,
-    location: 'Full-time Remote',
-    tasks: ['Curating docs for dApp Developers'],
-    techstack: ['Blockchain', 'SDK docs', 'Ethereum', 'API docs'],
+    location: 'Bengaluru On-site',
+    tasks: ['Created mirecosites and documentations from scratch for Developers'],
+    techstack: ['API docs', 'Markdown', 'CI/CD', 'Kubernetes', 'Docker','Containers'],
   },
   {
-    img: 'img/bol.png',
-    jobTitle: 'Senior Technical Writer',
-    company: 'Harness.io',
-    date: 'March 2021 - March 2022',
-    workLength: `1 yr 1 mos`,
-    location: 'Full-time Remote',
-    tasks: [
-      'Curating docs for DevOps developers. Providing contextual hekps in product writing tooltips.'
+    img: 'img/microsoft.png',
+    jobTitle: 'Developer Documention Specialist',
+    company: 'Microsoft',
+    date: 'March 2022 - July 2022',
+    workLength: `5 mos`,
+    location: 'Bengaluru Remote',
+    tasks: ['Tested and documented Teams bots and servicers for Developers'
     ],
-    techstack: ['Markdown', 'CI', 'Kubernetes', 'Docker','Containers'],
+    techstack: ['Toolkit', 'SDK docs'],
   },
   {
-    img: 'img/ssm.png',
-    jobTitle: 'Senior Technical Writer',
-    company: 'McAfee',
-    date: 'Sep 2019 - March 2021',
-    workLength: '1 year 7 mos',
-    location: 'Bangalore',
-    tasks: [
-      'Developed docs for the best-in-the-business CASB product of Mcafee called MVISION cloud.',
-    ],
-    techstack: [ 
-      'Cloud Access Security Broker (CASB)', 
-      'Enterprise Anti-Virus', 
-      'Identity & Access Management (IAM)', 
-    
-    ],
-  },
-   {
-    img: 'img/ssc.png',
-    jobTitle: 'Technical Writer',
-    company: 'KanTime Healthcare',
-    date: 'Jan 2016 - Aug 2019',
-    workLength: '3 yrs 8 mos',
-    location: 'Bangalore',
-    tasks: [
-      'Curated docs for a wide range of audience of healthcare industry',
-    ],
-    techstack: [
-      'Camtasia',
-      'SnagIt',
-      'HelpDocs',
-      'MindTouch',
-      'Kubernetes',
-      'GraphQL',
-    ],
+    img: 'img/safran.png',
+    jobTitle: 'Engineer I',
+    company: 'Safran',
+    date: 'Dec 2018 - March 2022',
+    workLength: '3 years 4 mos',
+    location: 'Bengaluru On-site',
+    tasks: ['Documented API documentation, user guides, installation guides, admin guides for simulators.'],
+    techstack: ['API docs', 'Simulator'],
   },
   
 ];
 
 const education: Array<EducationType> = [
   {
-    img: 'img/hhs.png',
-    school: 'Veltech University',
-    study: 'bachelors in Computer Science and Engineering',
-    date: '2011 - 2015',
+    img: 'img/vtu.png',
+    school: 'VTU',
+    study: 'Bachelors of Engineering',
+    date: '2014 - 2018',
   },
   {
-    img: 'img/lhs.png',
-    school: 'Kerala Public School',
-    study: '10th + 12th',
-    date: '2008 - 2010',
+    img: 'img/ais.png',
+    school: 'Ananth Residentioal PU College',
+    study: '11th + 12th',
+    date: '2012 - 2014',
   },
   {
-    img: 'img/glr.png',
-    school: 'Udemy',
-    study: '[DevOps Masterclass]',
-    date: '2022',
+    img: 'img/st.png',
+    school: 'St. Marys High School',
+    study: '10th',
+    date: '2012',
   },
 ];
 
